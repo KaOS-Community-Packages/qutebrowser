@@ -10,10 +10,10 @@ depends=("python3-jinja" "pyqt6-python3" "pyyaml"     "qt6-base" "pyqt6-webengin
 #makedepends=("asciidoc" "python-setuptools")
 makedepends=("asciidoc" "python3-setuptools")
 #optdepends=("python-adblock: adblocking backend"
-#            "python-pygments"
-#            "pdfjs: displaying PDF in-browser")
+#            "python-pygments")
 optdepends=(
             "python3-pygments" 
+            "pdfjs: displaying PDF in-browser"
             "gst-libav: media playback with qt5-webkit backend"
             "gst-plugins-base: media playback with qt5-webkit backend"
             "gst-plugins-good: media playback with qt5-webkit backend"
