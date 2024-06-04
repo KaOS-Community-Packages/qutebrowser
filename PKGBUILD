@@ -1,5 +1,5 @@
 pkgname=qutebrowser
-pkgver=3.1.0
+pkgver=3.2.0
 pkgrel=1
 pkgdesc="A keyboard-driven, vim-like browser based on PyQt6"
 arch=("x86_64")
