@@ -1,5 +1,5 @@
 pkgname=qutebrowser
-pkgver=3.2.0
+pkgver=3.2.1
 pkgrel=1
 pkgdesc="A keyboard-driven, vim-like browser based on PyQt6"
 arch=("x86_64")
@@ -10,7 +10,8 @@ depends=("python3-jinja" "pyqt6-python3" "pyyaml"     "qt6-base" "pyqt6-webengin
 #makedepends=("asciidoc" "python-setuptools")
 makedepends=("asciidoc" "python3-setuptools")
 #optdepends=("python-adblock: adblocking backend"
-#            "python-pygments")
+#            "python-pygments"
+#            "pdfjs: displaying PDF in-browser")
 optdepends=(
             "python3-pygments" 
             "pdfjs: displaying PDF in-browser"
